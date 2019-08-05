@@ -14,8 +14,8 @@ while ejemplo<=4:
     sol_real=x1+x2
     resultados_reales.append(sol_real)    
     print sol_real
-    Binario_x1=[] #lista que contiene x1 representado en forma binaria
-    Binario_x2=[]#lista que contiene x2 representado en forma binaria
+    Binario_x1=[] 
+    Binario_x2=[]
 
     while x1>0 or x2>0:
         resto1 = int(x1%2)
