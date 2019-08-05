@@ -9,7 +9,6 @@ resultados32=[]
 resultados64=[]
 while ejemplo<=4:
     x1= float(raw_input("inserte un número:"))
-    #x1 es el primer npumero co que se trabajará
     x2 = float(raw_input("inserte segundo número:"))
     sol_real=x1+x2
     resultados_reales.append(sol_real)    
